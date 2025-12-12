@@ -1,55 +1,54 @@
 English
 Required:
-    -Gamemt E6 gaming console, 2025 version
-    -A good brand microSD card, not a no-name Chinese junk!
-    -1 bootable Linux system on a flash drive (ubuntu-desktop, lubuntu-desktop, kubuntu-desktop)
-    -A USB microSD card reader
-    -A brain with a suitable IQ, 90-100 IQ is enough (note: brains corrupted by TikTok and other junk are not supported!).
-    -A Windows computer, because the application for writing games to the SD card for the Gamemt E6 2025 console is for Windows.
-    
-Section for preparing the microSD card for use with the program (this is required, otherwise the console will not read games correctly or at all!)
-    Boot Linux in liveCD mode.
-    Open the bash terminal.
-    Copy the script to the desktop: card_format_PL.sh
-    Go to the file properties and in permissions, give it execute rights (checkbox).
-    Run the script with the command: ./card_format_PL.sh
-    Note: You must be in the location where you copied it, e.g., /home/user_name/Desktop.
-    Follow the script's instructions.
-    Your external storage device name might be, for example, "SDD"
-    
+- Gamemt E6 gaming console, 2025 version
+- A good brand microSD card, not a no-name Chinese junk!
+- 1 bootable Linux system on a flash drive (ubuntu-desktop, lubuntu-desktop, kubuntu-desktop)
+- A USB microSD card reader
+- A brain with a suitable IQ, 90-100 IQ is enough (note: brains corrupted by TikTok and other junk are not supported!).
+- A Windows computer, because the application for writing games to the SD card for the Gamemt E6 2025 console is for Windows.
+
+1. Section for preparing the microSD card for use with the program (this is required, otherwise the console will not read games correctly or at all!)
+- Boot Linux in liveCD mode.
+- Open the bash terminal.
+- Copy the script to the desktop: `card_format_PL.sh`
+- Go to the file properties and in permissions, give it execute rights (checkbox).
+- Run the script with the command: `./card_format_PL.sh`
+Note: You must be in the location where you copied it, e.g., `/home/user_name/Desktop`.
+Follow the script's instructions.
+Your external storage device name might be, for example, "SDD"
 Example:
 SDD
 |
 --SDA1
 
-Using the game writing program.
-    WARNING!
-    Upon first launch, the program will create a local folder structure for you to make it easier to use the program and manage ROMs (games). It's similar to the one on the SD card, with the difference that it stores ROMs and cover images in a subfolder called GUI for each emulator.
-    Path to the structure: gamemt_gui\_internal\gamemt
-    Any interaction with the files on the card: editing, saving a file using a program other than gamemt_gui.exe may damage the game system on the card and it will not work on the console; you might get a black screen flashing. In that case, you must repeat everything from point 2 again. THE ONLY ALLOWED OPERATION ON THE CARD IS TO SELECT EVERYTHING IN THE CARD'S MAIN FOLDER AND DELETE ALL CONTENTS. Then you can start point 2 again, and everything should work.
-    Emulators that do not work are VCPS1 and VCPS2. The list is created, but the games do not work.
-    Why? Because immediately after turning on, the console itself destroyed the folder and file structure for VCSP1 and VCSP2. And I suspect there was a BIOS or other files there without which these emulators will not run games. If anyone has an image of the original card before turning on the console, please send a download link; this will allow me to add these features to my program.
-    If you have already prepared the card properly, you can run the program; if not, go back to point 1.
-    Copy/download the program to any location, but I recommend directly to the disk or in one folder without spaces and special characters!
-    Run the .exe program.
-    All actions are described and provide logs of performed operations.
+2. Using the game writing program.
+WARNING!
+Upon first launch, the program will create a local folder structure for you to make it easier to use the program and manage ROMs (games). It's similar to the one on the SD card, with the difference that it stores ROMs and cover images in a subfolder called GUI for each emulator.
+Path to the structure: `gamemt_gui\_internal\gamemt`
+Any interaction with the files on the card: editing, saving a file using a program other than `gamemt_gui.exe` may damage the game system on the card and it will not work on the console; you might get a black screen flashing. In that case, you must repeat everything from point 2 again. THE ONLY ALLOWED OPERATION ON THE CARD IS TO SELECT EVERYTHING IN THE CARD'S MAIN FOLDER AND DELETE ALL CONTENTS. Then you can start point 2 again, and everything should work.
+Emulators that do not work are VCPS1 and VCPS2. The list is created, but the games do not work.
+Why? Because immediately after turning on, the console itself destroyed the folder and file structure for VCSP1 and VCSP2. And I suspect there was a BIOS or other files there without which these emulators will not run games. If anyone has an image of the original card before turning on the console, please send a download link; this will allow me to add these features to my program.
+- If you have already prepared the card properly, you can run the program; if not, go back to point 1.
+- Copy/download the program to any location, but I recommend directly to the disk or in one folder without spaces and special characters!
+- Run the .exe program.
+- All actions are described and provide logs of performed operations.
 
 Example of correct usage:
-    Select the letter of your (prepared!) SD card.
-    Click "Prepare SD Card Structure" - the program prepares the card structure with appropriate directories and files so that games can be added to the correct emulator folders.
-    Select from the list which emulator you will be uploading games for, e.g., vpsp (vpsp is the PSP emulator).
-    Select the 'roms' folder (with games for PSP in our case). Files with the .ISO extension.
-    In the gui folder, you can add cover images for them with the exact same name as the game file, or the exact same name with the suffix _001. Example cover in the GUI folder: GodOfWar_001.png (the game filename in roms is GodOfWar.iso)
-    Click the "Add Games" button, wait for it to finish adding, and you're done.
-    6*. If you are concerned that the game list is long and many are greyed out, then after connecting the SD card to the computer and running the program, use the "Update Game Lists (SD Card)" option.
-    Remember to select the correct emulator from the System list whose list you want to update.
+1. Select the letter of your (prepared!) SD card.
+2. Click "Prepare SD Card Structure" - the program prepares the card structure with appropriate directories and files so that games can be added to the correct emulator folders.
+3. Select from the list which emulator you will be uploading games for, e.g., vpsp (vpsp is the PSP emulator).
+4. Select the 'roms' folder (with games for PSP in our case). Files with the .ISO extension.
+In the gui folder, you can add cover images for them with the exact same name as the game file, or the exact same name with the suffix _001. Example cover in the GUI folder: `GodOfWar_001.png` (the game filename in roms is `GodOfWar.iso`)
+5. Click the "Add Games" button, wait for it to finish adding, and you're done.
+6*. If you are concerned that the game list is long and many are greyed out, then after connecting the SD card to the computer and running the program, use the "Update Game Lists (SD Card)" option.
+Remember to select the correct emulator from the System list whose list you want to update.
 
 Important additional information:
-    The "Rom Sites" button opens websites from which you can download ROMs (games) for emulators.
-    The "Restore Stock Game List" button restores the original game list. The one that gets created during the card structure setup.
-    Language -> select the program UI language.
-    The "Show All Disks" checkbox shows all storage devices on your system. Currently connected internal drives, external storage, etc.!
-    Do not use it if you are not sure!
+- The "Rom Sites" button opens websites from which you can download ROMs (games) for emulators.
+- The "Restore Stock Game List" button restores the original game list. The one that gets created during the card structure setup.
+- Language -> select the program UI language.
+- The "Show All Disks" checkbox shows all storage devices on your system. Currently connected internal drives, external storage, etc.!
+Do not use it if you are not sure!
 
 Polski
 
