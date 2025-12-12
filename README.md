@@ -70,10 +70,10 @@ Wymagane:
 1.Sekcja prygotowania karty microSD do nagrywania programem(to jest wymagane inaczej konsola nie będzie czytać gier poprawnie lub wcale !)
 -uruchom linux-a w trybie liveCD.
 - uruchom bash terminal
-- skopiuj skrypt na pulpit 'card_format_PL.sh'
+- skopiuj skrypt na pulpit `card_format_PL.sh`
 - wejdź we właściowści pliku i w prawach nadaj mu prawo do wykonywania (checkbox)
-- uruchom skrypt poprzez komende:  './card_format_PL.sh'
-uwaga musisz być w lokalizacj tam gdzie go skopiowałeś np. '/home/user_name/Desktop'
+- uruchom skrypt poprzez komende:  `./card_format_PL.sh`
+uwaga musisz być w lokalizacj tam gdzie go skopiowałeś np. `/home/user_name/Desktop`
 Postępuj zgodnie ze instrukcjami skryptu. 
 Nazwa twojej pamięci zewnetrznej może być np. "SDD" 
 przykład:
@@ -84,10 +84,10 @@ SDD
 2. Używanie programu do nagrywania gier. 
 UWAGA!
 Program przy pierwszym uruchomieniu utowrzy ci skruktóre lokalną aby łątwiej było ci używać programu i zarządać romami(grami) taka jak na karcie SD tylko z tą różnicą że przchowuje romy i obrazki okłądek w podfolderze GUI dla każdego emulatora.
-scieżka do struktury: 'gamemt_gui\_internal\gamemt'
-Jakakolwiek interkacja z plikami na karcie: edytowanie , zapisanie pliku poprzez inny program niż 'gamemt_gui.exe' może uszkodzić system gier na karcie i nie będzie działać na konsoli , może migać czarnym ekranem. wtedy musisz powtórzyć wszystko z punktu 2 od nowa.  JEDYNĄ DOPUSZCZALNĄ OPERACJĄ NA KARCIE JEST ZAZNACZENIE WSZYSTKIEGO W GŁÓWNYM FOLDERZE KERTY I USUNIĘCIE CAŁEJ ZAWARTOŚCI .Wtedy możesz zacząć od nowa punktu 2-go i powinno wszsytko działać.
-Emulatory które nie działają to 'VCPS1' i 'VCPS2'. Lista się torzy ale gry nie działąją. 
-Dlaczego ? Dlatego że odrazu po włączeniu konsola sama zniszczyła strukture folderów i plików dla 'VCSP1' i 'VCSP2'. A ja podejrzewam że był tam BIOS lub inne pliki bez których te emulatory nie uruchomią gier. Jeśli ktoś ma obraz karty orginalnej przed właczeniem konsoli proszę o podesłanie linka do pobrania, dzieku temu będę mógł dodać te funkcje do mojego programu.
+scieżka do struktury: `gamemt_gui\_internal\gamemt`
+Jakakolwiek interkacja z plikami na karcie: edytowanie , zapisanie pliku poprzez inny program niż `gamemt_gui.exe` może uszkodzić system gier na karcie i nie będzie działać na konsoli , może migać czarnym ekranem. wtedy musisz powtórzyć wszystko z punktu 2 od nowa.  JEDYNĄ DOPUSZCZALNĄ OPERACJĄ NA KARCIE JEST ZAZNACZENIE WSZYSTKIEGO W GŁÓWNYM FOLDERZE KERTY I USUNIĘCIE CAŁEJ ZAWARTOŚCI .Wtedy możesz zacząć od nowa punktu 2-go i powinno wszsytko działać.
+Emulatory które nie działają to `VCPS1` i `VCPS2`. Lista się torzy ale gry nie działąją. 
+Dlaczego ? Dlatego że odrazu po włączeniu konsola sama zniszczyła strukture folderów i plików dla `VCSP1` i `VCSP2`. A ja podejrzewam że był tam BIOS lub inne pliki bez których te emulatory nie uruchomią gier. Jeśli ktoś ma obraz karty orginalnej przed właczeniem konsoli proszę o podesłanie linka do pobrania, dzieku temu będę mógł dodać te funkcje do mojego programu.
 
 -jeśli masz już przygotowaną karte odpowienio możesz uruchomić program jeśli nie to wracaj do punktu 1. 
 -kopiujesz / pobierasz program do dowlolnej lokalizacji ale polecam bezpośrednio na dysk lub w jednym folderze bez spacji i znaków specjalnych !
@@ -99,7 +99,7 @@ Przykłąd poprawnego użycia:
 2.Klikasz "Przygotuj Strukture KartySD"- program przygoduje strukture karty z odpowiednimi katalogiami i plikami aby można było dodawać gry do odpowiednich folderów emulatorów.
 3.Wybierasz z listy do jakiego emulatora będziesz wgrywać gry np. vpsp (vpsp to emulator PSP)
 4. wybiersz folder roms (z grami dla PSP w naszym przypadku). pliki z rozszerzeniem ISO
-w folderze gui możesz do dać do nich okładki z identyczną nazwą jak plik gry lub identyczną nazwą i suffixem '_001'. przykład okładki w folderze GUI: 'GodOfWar_001.png' (nazwa pliku gry w roms jest 'GodOfWar.iso')
+w folderze gui możesz do dać do nich okładki z identyczną nazwą jak plik gry lub identyczną nazwą i suffixem `_001`. przykład okładki w folderze GUI: `GodOfWar_001.png` (nazwa pliku gry w roms jest `GodOfWar.iso`)
 5. kliknij przycisk Dodaj gry , czekasz aż się doda i gotowe.
 6*. Jeśli nie odpowiadać że lista gier jest długa a sporo jest szarych to po podpięciu kartySD do komputera i uruchomieniu programu użyj opcji Aktualizuj listy gier(KartaSD).
 Pamiętaj aby wybrać w liście System odpowiedni emulator którego listę chesz zaktualizaować. 
