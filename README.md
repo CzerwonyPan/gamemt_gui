@@ -12,9 +12,9 @@ Required:
 1. Section for preparing the microSD card for use with the program (this is required, otherwise the console will not read games correctly or at all!)
 - Boot Linux in liveCD mode.
 - Open the bash terminal.
-- Copy the script to the desktop: `card_format_PL.sh`
+- Copy the script to the desktop: `card_format_EN.sh`
 - Go to the file properties and in permissions, give it execute rights (checkbox).
-- Run the script with the command: `./card_format_PL.sh`
+- Run the script with the command: `./card_format_EN.sh`
 Note: You must be in the location where you copied it, e.g., `/home/user_name/Desktop`.
 Follow the script's instructions.
 Your external storage device name might be, for example, "SDD"
